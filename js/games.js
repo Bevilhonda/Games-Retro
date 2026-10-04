@@ -50,6 +50,13 @@ const games = [
     gif: './img/marvelSuperHeroes.gif'
   },
   {
+    id: 'marvelCapcom',
+    nome: 'Marvel vs. Capcom: Clash of Super Heroes',
+    imagem: './img/MarvelvsCapcom.jpg',
+    descricao: 'Marvel vs. Capcom: Clash of Super Heroes é um clássico jogo de luta desenvolvido pela Capcom e lançado originalmente em 1998.',
+    gif: './img/MarvelvsCapcom.gif'
+  },
+  {
     id: 'pacman',
     nome: 'Pac-Man',
     imagem: './img/pacman.png',
