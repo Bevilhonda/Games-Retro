@@ -20,7 +20,7 @@ body {
   align-items: center;
   gap: 2rem;
   padding: 1rem 4rem;
-  font-size: 2rem;
+  font-size: 1rem;
 
   background-color: #352121;
   color: rgb(15, 248, 6);
@@ -29,21 +29,21 @@ body {
   background-color: #057a7a;
   color: rgb(15, 248, 6);
   border: none;
-  font-size: 2.2rem;
+  font-size: 1.2rem;
   cursor: pointer;
   border-radius: 0.5rem;
   padding: 0.8rem 2.5rem;
 }
 
 .logo img {
-  width: 22rem;
+  width: 15rem;
   height: auto;
 }
 /* SOBRE */
 
 .sobre {
-  padding: 2rem 8rem;
-  font-size: 2.8rem;
+  padding: 1rem 4rem;
+  font-size: 1.8rem;
   background-color: #0e0658;
   color: rgb(15, 248, 6);
 }
@@ -52,7 +52,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 3rem;
+  gap: 1rem;
 }
 
 .sobre-texto {
@@ -60,11 +60,11 @@ body {
 }
 .NomeDestaque {
   color: rgb(196, 238, 248);
-  font-size: 3.9rem;
+  font-size: 1.9rem;
 }
 
 .myAvatar img {
-  width: 22rem;
+  width: 12rem;
   height: auto;
 }
 
@@ -72,14 +72,14 @@ body {
 
 .tituloSecaoGames {
   text-align: center;
-  font-size: 4.2rem;
+  font-size: 2.2rem;
   margin-bottom: 2rem;
   color: rgb(15, 248, 6);
 }
 
 .jogos {
   padding: 2rem 8rem;
-  font-size: 2.8rem;
+  font-size: 1.8rem;
   background-color: #5e0326;
   color: rgb(15, 248, 6);
 }
@@ -92,7 +92,7 @@ body {
 }
 
 .game {
-  width: 20rem;
+  width: 10rem;
   text-align: center;
   cursor: pointer;
 }
@@ -137,7 +137,7 @@ body {
   color: white;
 
   border-radius: 1rem;
-  font-size: 3.2rem;
+  font-size: 1.2rem;
   color: rgb(15, 248, 6);
 }
 
@@ -163,7 +163,7 @@ body {
 .gif-jogo {
   display: block;
 
-  width: 35rem;
+  width: 15rem;
   height: auto;
 
   margin: 2rem auto 0;
@@ -188,7 +188,7 @@ body {
 }
 
 .formulario label {
-  font-size: 2.2rem;
+  font-size: 1.2rem;
 }
 
 .formulario input,
@@ -201,11 +201,11 @@ body {
 }
 
 .formulario input {
-  height: 4rem;
+  height: 2rem;
 }
 
 .formulario textarea {
-  height: 8rem;
+  height: 4rem;
   resize: none;
 }
 
@@ -230,7 +230,7 @@ body {
 .menu a {
   color: rgb(15, 248, 6);
   text-decoration: none;
-  font-size: 2.2rem;
+  font-size: 1.2rem;
 }
 
 /* CONTEÚDO PRINCIPAL */
