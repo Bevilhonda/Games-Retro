@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Games Retrô</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="cabecalho">
+        <div class="logo">
+          <img src="./img/logo.png" alt="Logo" />
+        </div>
+
+        <h1>Ingá Games Retrô</h1>
+        <ul class="menu">
+          <button>
+            <li><a href="#">Home</a></li>
+          </button>
+          <button>
+            <li><a href="#">Sobre</a></li>
+          </button>
+          <button>
+            <li><a href="#">Games</a></li>
+          </button>
+          <button>
+            <li><a href="#">Jogos On line</a></li>
+          </button>
+          <button>
+            <li><a href="#">Contato</a></li>
+          </button>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section class="sobre">
+        <h2>Quem sou Eu</h2>
+
+        <div class="sobre-conteudo">
+          <div class="sobre-texto">
+            <p>
+              Sou <span class="NomeDestaque">Marcelo Bevilacqua</span>,
+              desenvolvedor web e entusiasta de jogos clássicos.
+            </p>
+
+            <p>
+              O Ingá Games Retrô nasceu da minha paixão pelos jogos que marcaram
+              diferentes gerações.
+            </p>
+
+            <p>
+              Este projeto também faz parte da minha jornada de aprendizado em
+              desenvolvimento web.
+            </p>
+            <p>
+              Aqui eu quero que você possa explorar, relembrar e se divertir com
+              os jogos que fizeram história.
+            </p>
+          </div>
+
+          <div class="myAvatar">
+            <img src="./img/myAvatar.jpeg" alt="MyAvatar" />
+          </div>
+        </div>
+      </section>
+
+      <section class="jogos">
+        <h2 class="tituloSecaoGames">Jogos Retrô</h2>
+
+        <div class="lista-jogos"></div>
+      </section>
+
+      <section class="contato">
+        <form class="formulario" action="#" method="post">
+          <h2 class="formulario-titulo">Fale comigo Aqui</h2>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" />
+
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem"></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="myfooter">
+      <div class="marcaregistrada">
+        <p>© Marcelo Bevilacqua</p>
+      </div>
+    </footer>
+
+    <div id="modalJogo" class="modal">
+      <div class="modal-conteudo">
+        <button class="fechar" onclick="fecharJogo()">X</button>
+
+        <h2 id="modalTitulo"></h2>
+
+        <p id="modalDescricao"></p>
+
+        <img id="modalGif" class="gif-jogo" src="" alt="" />
+      </div>
+    </div>
+
+    <script src="./js/games.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
